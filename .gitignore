@@ -1,0 +1,46 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+/build/
+/target/
+
+# Hadoop output and logs
+/output/
+logs.txt
+
+# Eclipse/IntelliJ/VSCode
+/.classpath
+/.project
+/.settings/
+/.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven/Gradle
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.gradle/
+
+# Temporary files
+*.log
+*~
+
+# Ignore generated class files if any
+**/*.class
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.tgz
+
+# Node / Python envs (safety)
+node_modules/
+venv/
